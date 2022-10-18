@@ -1,7 +1,40 @@
 *{
 
-    padding: 0px;
-    margin: 0px;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 
 }
 
+.carl {
+    min-height: 100vh;
+    width: 100;
+    background-color: black;
+    background-image: url(https://steamuserimages-a.akamaihd.net/ugc/933807761347060031/0BED3BF48CE936869E991C0C979A52C1B009A7EA/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false);
+   background-size: 16%;
+}
+
+h1 {
+    color: white;
+    text-decoration:line-through;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px 30px;
+}
+
+nav ul li a {
+    color: aquamarine;
+    text-decoration: none;
+}
